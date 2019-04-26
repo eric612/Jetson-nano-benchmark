@@ -1,7 +1,7 @@
 # Jetson-nano-benchmark
 
 Model | GPU | Mode | Inference Time | Framework | Task
--- | -- | -- | -- | --
+-- | -- | -- | -- | -- | --
 pelee-ssd-304 |  Jetson nano | float32 | 53 ms | TensorRT-Pelee | Detection
 pelee-ssd-304 |  Jetson nano | float32 | 89 ms | TensorRT-Pelee | [Detection + Segmentation](https://youtu.be/nndFtIPMy20)
 
