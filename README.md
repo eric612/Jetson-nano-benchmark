@@ -2,8 +2,8 @@
 
 Model | GPU | Mode | Inference Time | Framework | Task
 -- | -- | -- | -- | -- | --
-pelee-ssd-304 |  Jetson nano | float32 | 53 ms | TensorRT-Pelee | Detection
-pelee-ssd-304 |  Jetson nano | float32 | 89 ms | TensorRT-Pelee | [Detection + Segmentation](https://youtu.be/nndFtIPMy20)
+[pelee-ssd-304](https://github.com/eric612/MobileNet-YOLO) |  Jetson nano | float32 | 53 ms | TensorRT-Pelee | Detection
+[pelee-ssd-304](https://github.com/eric612/MobileNet-YOLO) |  Jetson nano | float32 | 89 ms | TensorRT-Pelee | [Detection + Segmentation](https://youtu.be/nndFtIPMy20)
 
 * pre/post process cosume 10 ms per frame 
 * Framework link : [TensorRT-YOLOv3](https://github.com/eric612/TensorRT-Yolov3-models) , [ncnn](https://github.com/Tencent/ncnn) , [darknet](https://github.com/pjreddie/darknet), [TensorRT-Pelee](https://github.com/eric612/Pelee-Seg-TensorRT)
